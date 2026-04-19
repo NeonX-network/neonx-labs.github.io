@@ -1,5 +1,5 @@
 # Stellar TOML Configuration
-TOML_VERSION="2.0.0"
+TOML_VERSION="2.5.0"
 
 # Organization Information
 ORG_NAME="My Stellar Project"
