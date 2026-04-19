@@ -26,7 +26,7 @@ email="admin@neonx-labs.github.io"
 
 # Token Definition
 [[CURRENCIES]]
-code="NEONX"
+code="NEX"
 issuer="GDTMEO5J5HSK35KHD7CJBUB576EFVSFXMXHACV7PORO36Z7AIHHKCJH2"
 status="live"
 display_decimals=2
