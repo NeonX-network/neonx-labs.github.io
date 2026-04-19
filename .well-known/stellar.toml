@@ -1,24 +1,36 @@
 # Stellar TOML Configuration
-
-TOML_VERSION="2.7.0"
+TOML_VERSION="2.0.0"
 
 # Organization Information
 ORG_NAME="My Stellar Project"
 ORG_URL="https://neonx-labs.github.io/"
-ORG_LOGO="https://neonx-labs.github.io/logo.png"
+ORG_LOGO="https://neonx-labs.github.io/token.png"
 ORG_DESCRIPTION="NEONX aims to become a foundation for future digital innovation."
 
+# Accounts
 ACCOUNTS=[
-"GDTMEO5J5HSK35KHD7CJBUB576EFVSFXMXHACV7PORO36Z7AIHHKCJH2",
-"GCC3ASQTLRR5DR3QUYQZAXN7VP5NFF5UIUVR6C3TWDJYSMNDERBCDNJ5"]
+  "GDTMEO5J5HSK35KHD7CJBUB576EFVSFXMXHACV7PORO36Z7AIHHKCJH2",
+  "GCC3ASQTLRR5DR3QUYQZAXN7VP5NFF5UIUVR6C3TWDJYSMNDERBCDNJ5"
+]
 
-# Stellar Account
+# Documentation (biar lebih trusted)
+[[DOCUMENTATION]]
+ORG_NAME="My Stellar Project"
+ORG_URL="https://neonx-labs.github.io/"
+ORG_DESCRIPTION="NEONX aims to become a foundation for future digital innovation."
+
+# Optional team/contact
+[[PRINCIPALS]]
+name="NEONX Team"
+email="admin@neonx-labs.github.io"
+
+# Token Definition
 [[CURRENCIES]]
-code="NEX"
-issuer="GCC3ASQTLRR5DR3QUYQZAXN7VP5NFF5UIUVR6C3TWDJYSMNDERBCDNJ5"
+code="NEONX"
+issuer="GDTMEO5J5HSK35KHD7CJBUB576EFVSFXMXHACV7PORO36Z7AIHHKCJH2"
 status="live"
 display_decimals=2
 name="NEONX"
 desc="NEONX aims to become a foundation for future digital innovation."
 image="https://neonx-labs.github.io/token.png"
-
+anchor_asset_type="crypto"
