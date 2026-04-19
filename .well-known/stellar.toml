@@ -10,7 +10,7 @@ ACCOUNTS=[
 
 # Stellar Account
 [[CURRENCIES]]
-code="NEONX"
+code="NEX"
 issuer="GCC3ASQTLRR5DR3QUYQZAXN7VP5NFF5UIUVR6C3TWDJYSMNDERBCDNJ5"
 status="live"
 display_decimals=2
