@@ -1,0 +1,20 @@
+# Organization Information
+ORG_NAME="My Stellar Project"
+ORG_URL="https://neonx-labs.github.io/"
+ORG_LOGO="https://neonx-labs.github.io/logo.png"
+ORG_DESCRIPTION="NEONX aims to become a foundation for future digital innovation."
+
+ACCOUNTS=[
+"GDTMEO5J5HSK35KHD7CJBUB576EFVSFXMXHACV7PORO36Z7AIHHKCJH2",
+"GCC3ASQTLRR5DR3QUYQZAXN7VP5NFF5UIUVR6C3TWDJYSMNDERBCDNJ5"]
+
+# Stellar Account
+[[CURRENCIES]]
+code="NEONX"
+issuer="GDTMEO5J5HSK35KHD7CJBUB576EFVSFXMXHACV7PORO36Z7AIHHKCJH2"
+status="live"
+display_decimals=2
+name="NEONX"
+desc="NEONX aims to become a foundation for future digital innovation."
+image="https://neonx-labs.github.io/token.png"
+
