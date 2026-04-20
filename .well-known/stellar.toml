@@ -1,5 +1,5 @@
-# Stellar TOML Configuration
-TOML_VERSION="2.5.0"
+# Stellar Network Configuration
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 # Organization Information
 ORG_NAME="My Stellar Project"
