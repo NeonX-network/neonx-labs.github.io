@@ -17,7 +17,7 @@ ORG_LOGO="https://neonx-labs.github.io/logo.png"
 ORG_DESCRIPTION="NEONX aims to become a foundation for future digital innovation."
 
 ########################################
-# Domain Binding (WAJIB UNTUK CONNECT)
+
 ########################################
 
 HORIZON_URL="https://horizon.stellar.org"
